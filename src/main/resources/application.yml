@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+server:
+  port: 6060
+mybatis:
+  config-location: classpath:mybatis.xml
+
+
